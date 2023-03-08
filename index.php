@@ -4,14 +4,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Cuso Bootstrap</title>
+
+  <title>Mercado Preso</title>
   <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
   <link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css">
 
 </head>
 
 <body>
-  <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-collapse bg-secondary ">
+  <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-collapse bg-dange ">
 
     <div class="container">
 
@@ -22,7 +23,9 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbar-Site">
+
         <ul class="navbar-nav mr-auto">
+
           <li class="navbar-item">
             <a href="#" class="nav-link text-dark">Inicio</a>
           </li>
@@ -44,6 +47,7 @@
           </li>
 
         </ul>
+
         <ul class="navbar-nav ml-auto ">
           <li class="navbar-item dropdown">
             <a href="#" class="nav-link dropdown-toggle text-dark" data-toggle="dropdown" id="navDrop">Social</a>
@@ -55,12 +59,15 @@
               <a href="#" class="dropdown-item"><img src="icon/youtube.svg" alt=""> YouTube</a>
             </div>
           </li>
+
         </ul>
+
         <form action="" class="form-inline">
           <input type="search" placeholder="Buscar..." class="form-control ml-4 mr-2">
           <button class="btn btn-light" type="submit">Ok</button>
         </form>
       </div>
+
     </div>
   </nav>
 
@@ -76,6 +83,7 @@
 
 
     <div class="carousel-inner">
+
       <div class="carousel-item active">
         <img src="img/celular.png" alt="" class="img-fluid d-block">
 
@@ -83,20 +91,25 @@
           <h1>Celulares</h1>
           <p class="lead">consectetur adipiscing elit. Donec nec lorem velit. Maecenas id tellus.</p>
         </div>
+
       </div>
+
       <div class="carousel-item">
         <img src="img/roupa.png" alt="" class="img-fluid d-block ">
         <div class="carousel-caption d-none d-md-block  text-dark ">
           <h1>Seu Estilo</h1>
           <p class="lead">consectetur adipiscing elit. Donec nec lorem velit. Maecenas id tellus.</p>
         </div>
+
       </div>
+
       <div class="carousel-item">
         <img src="img/celular.png" alt="" class="img-fluid d-block">
         <div class="carousel-caption d-none d-md-block  text-dark ">
           <h1>Nick Richardson </h1>
           <p class="lead">consectetur adipiscing elit. Donec nec lorem velit. Maecenas id tellus.</p>
         </div>
+
       </div>
     </div>
 
@@ -109,20 +122,24 @@
       <span class="carousel-control-next-icon"></span>
       <span class="sr-only">Avançar</span>
     </a>
+
   </div>
 
   <div class="container">
+
     <div class="row">
+
       <div class="col-12 text-center my-5">
         <h1 class="display-3">SEJA BEM VINDO</h1>
         <p>AQUI COMEÇA SUAS EMOÇÕES</p>
       </div>
+
     </div>
 
 
     <div class="row mb-5 ">
 
-      <div class="col-3 ">
+      <div class="col-sm-6 col-md-4 mb-3">
 
         <nav id="navbarVertical" class="navbar navbar-light bg-light ">
 
@@ -145,9 +162,12 @@
             </nav>
 
           </nav>
+
         </nav>
       </div>
-      <div class="col-9">
+
+      <div class="col-sm-6 col-md-8">
+
         <div data-spy="scroll" data-target="#navbarVertical" data-offset="0" class="scrollspySite">
 
           <h4 id="item1">Premium quality</h4>
@@ -188,14 +208,17 @@
             used in laying out print, graphic or web designs. The passage is
             attributed to an unknown typesetter in the 15th century who is thought to
             It usually begins with</p>
-
         </div>
 
       </div>
     </div>
-    <div class="row mb-5">
-      <div class="col-sm-4">
-        <div class="card">
+
+    <div class="row justify-content-sm-center ">
+
+      <div class="col-sm-6 col-md-4">
+
+        <div class="card mb-5">
+
           <img class="card-img-top" src="img/celular.png" alt="">
           <div class="card-body">
             <h4 class="card-title">Save time</h4>
@@ -203,24 +226,31 @@
             <p class="card-text">Lorem ipsum, or lipsum as it is sometimes known, is dummy text
               .</p>
           </div>
+
           <ul class="list-group list-group-flush">
             <li class="list-group-item">Tipos de letra</li>
             <li class="list-group-item">Mais famoso</li>
             <li class="list-group-item">Espaço reservado</li>
           </ul>
+
           <div class="card-body">
-            <a href="#" class="card-link">Curiosidade</a>
+            <a href="#" class="card-link" data-toggle="modal" data-target="#siteModal">Curiosidade</a>
             <a href="#" class="card-link">Saiba-mais</a>
 
           </div>
+
           <div class="card-footer text-muted">
             © 2018 - 2023 LOREM IPZUM
           </div>
+
         </div>
 
       </div>
-      <div class="col-sm-4">
-        <div class="card">
+
+      <div class="col-sm-6 col-md-4">
+
+        <div class="card mb-5">
+
           <img class="card-img-top" src="img/roupa.png" alt="">
           <div class="card-body">
             <h4 class="card-title">Graphic Templates</h4>
@@ -228,23 +258,28 @@
             <p class="card-text">Lorem ipsum, or lipsum as it is sometimes known, is dummy text
               .</p>
           </div>
+
           <ul class="list-group list-group-flush ">
             <li class="list-group-item">Tipos de letra</li>
             <li class="list-group-item">Mais famoso</li>
             <li class="list-group-item">Espaço reservado</li>
           </ul>
-          <div class="card-body">
-            <a href="#" class="card-link">Curiosidade</a>
-            <a href="#" class="card-link">Saiba-mais</a>
 
+          <div class="card-body">
+            <a href="#" class="card-link" data-toggle="modal" data-target="#siteModal">Curiosidade</a>
+            <a href="#" class="card-link">Saiba-mais</a>
           </div>
+
           <div class="card-footer text-muted">
             © 2018 - 2023 LOREM IPZUM
           </div>
+
         </div>
       </div>
-      <div class="col-sm-4">
-        <div class="card">
+
+      <div class="col-sm-6 col-md-4">
+
+        <div class="card mb-5">
           <img class="card-img-top" src="img/roupa.png" alt="">
           <div class="card-body">
             <h4 class="card-title">Save time</h4>
@@ -252,6 +287,7 @@
             <p class="card-text">Lorem ipsum, or lipsum as it is sometimes known, is dummy text
               .</p>
           </div>
+
           <ul class="list-group list-group-flush">
             <li class="list-group-item">Tipos de letra</li>
             <li class="list-group-item">Mais famoso</li>
@@ -260,14 +296,197 @@
 
 
           <div class="card-body">
-            <a href="#" class="card-link">Curiosidade</a>
+            <a href="#" class="card-link" data-toggle="modal" data-target="#siteModal">Curiosidade</a>
             <a href="#" class="card-link">Saiba-mais</a>
 
           </div>
+
           <div class="card-footer text-muted">
             © 2018 - 2023 LOREM IPZUM
           </div>
+
         </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="jumbotron jumbotron-fluid">
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-12 text-center">
+
+          <h1 class="display-4">Porque nós o usamos</h1>
+          <p class="lead">Lorem Ipsum é simplesmente uma
+            simulação de texto da indústria tipográfica e
+            de impressos, e vem sendo utilizado desde o século
+            XVI, quando um impressor desconhecido pegou uma bandeja
+            de tipos e os embaralhou
+          </p>
+          <hr>
+
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+
+          <ul class="nav nav-pills justify-content-center mb-4" id="pills-nav" role="tablist">
+
+            <li class="nav-item">
+              <a class="nav-link active " id="nav-pills-01" data-toggle="pill"  href="#nav-item-01">Pellentesque</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link  " id="nav-pills-02" data-toggle="pill" href="#nav-item-02">Onde posso conseguí-lo</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link  " id="nav-pills-03" data-toggle="pill"  href="#nav-item-03">De onde ele vem</a>
+            </li>
+
+          </ul>
+
+          <div class="tab-content" id="nav-pills-content">
+
+            <div class="tab-pane fade show active" id="nav-item-01 " role="tabpanel">
+
+              <div class="row">
+
+                <div class="col-sm-6">
+                  <div class="embed-responsive embed-responsive-4by3">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Ld2ikv9fExs"></iframe>
+                  </div>
+                </div>
+
+                <div class="col-sm-6">
+                  <p>Lorem Ipsum é simplesmente uma simulação de texto da
+                    indústria tipográfica e de impressos, e vem sendo utilizado
+                    desde o século XVI, quando um impressor desconhecido pegou
+                    uma bandeja de tipos e os embaralhou para fazer um livro de
+                    modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos,
+                    como também ao salto para a editoração eletrônica, permanecendo
+                    essencialmente inalterado.
+                  </p>
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="tab-pane fade " id="nav-item-02 " role="tabpanel">
+              <div class="row">
+
+                <div class="col-sm-6">
+                  <div class="embed-responsive embed-responsive-4by3">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/P8Crk1w7p5g"></iframe>
+                  </div>
+                </div>
+
+                <div class="col-sm-6">
+                  <p>Lorem Ipsum é simplesmente uma simulação de texto da
+                    indústria tipográfica e de impressos, e vem sendo utilizado
+                    desde o século XVI, quando um impressor desconhecido pegou
+                    uma bandeja de tipos e os embaralhou para fazer um livro de
+                    modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos,
+                    como também ao salto para a editoração eletrônica, permanecendo
+                    essencialmente inalterado.
+                  </p>
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="tab-pane fade " id="nav-item-03 " role="tabpanel">
+              <div class="row">
+
+                <div class="col-sm-6">
+                  <div class="embed-responsive embed-responsive-4by3">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Ld2ikv9fExs"></iframe>
+                  </div>
+                </div>
+
+                <div class="col-sm-6">
+                  <p>Lorem Ipsum é simplesmente uma simulação de texto da
+                    indústria tipográfica e de impressos, e vem sendo utilizado
+                    desde o século XVI, quando um impressor desconhecido pegou
+                    uma bandeja de tipos e os embaralhou para fazer um livro de
+                    modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos,
+                    como também ao salto para a editoração eletrônica, permanecendo
+                    essencialmente inalterado.
+                  </p>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="siteModal" tabindex="-1" role="dialg">
+
+    <div class="modal-dialog modal-lg" role="document">
+
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <h5 class="modal-title">De onde ele vem</h5>
+          <button type="button" class="close" data-dismiss="modal"></button>
+          <span>&times;</span>
+        </div>
+
+        <div class="modal-body">
+          <div class="container-fluid">
+
+            <div class="row">
+
+              <div class="col-6">
+                <h5>Lorem Ipsum</h5>
+                <p>Lorem Ipsum é simplesmente uma simulação
+                  de texto da indústria tipográfica e de impressos,
+                  e vem sendo utilizado desde o século XVI, quando
+                  um impressor desconhecido pegou uma bandeja de tipos
+                  e os embaralhou para fazer um livro de modelos de tipos.
+                  Lorem Ipsum sobreviveu não só a cinco séculos, como também
+                  ao salto para a editoração eletrônica, permanecendo essencialmente
+                  inalterado. Se popularizou na década de 60, quando a Letraset lançou
+                  decalques contendo passagens de Lorem Ipsum, e mais recentemente quando
+                  passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
+              </div>
+              <div class="col-6">
+                <h5>Lorem Ipsum</h5>
+                <p>Lorem Ipsum é simplesmente uma simulação
+                  de texto da indústria tipográfica e de impressos,
+                  e vem sendo utilizado desde o século XVI, quando
+                  um impressor desconhecido pegou uma bandeja de tipos
+                  e os embaralhou para fazer um livro de modelos de tipos.
+                  Lorem Ipsum sobreviveu não só a cinco séculos, como também
+                  ao salto para a editoração eletrônica, permanecendo essencialmente
+                  inalterado. Se popularizou na década de 60, quando a Letraset lançou
+                  decalques contendo passagens de Lorem Ipsum, e mais recentemente quando
+                  passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Feixar</button>
+        </div>
+
       </div>
     </div>
   </div>
