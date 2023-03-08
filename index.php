@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-collapse bg-dark">
+  <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-collapse bg-secondary ">
 
     <div class="container">
 
@@ -24,29 +24,29 @@
       <div class="collapse navbar-collapse" id="navbar-Site">
         <ul class="navbar-nav mr-auto">
           <li class="navbar-item">
-            <a href="#" class="nav-link">Inicio</a>
+            <a href="#" class="nav-link text-dark">Inicio</a>
           </li>
 
           <li class="navbar-item">
-            <a href="#" class="nav-link">Perfil</a>
+            <a href="#" class="nav-link text-dark">Perfil</a>
           </li>
 
           <li class="navbar-item">
-            <a href="#" class="nav-link">Serviços</a>
+            <a href="#" class="nav-link text-dark">Serviços</a>
           </li>
 
           <li class="navbar-item">
-            <a href="#" class="nav-link">Depoimentos</a>
+            <a href="#" class="nav-link text-dark">Depoimentos</a>
           </li>
 
           <li class="navbar-item">
-            <a href="#" class="nav-link">Contatos</a>
+            <a href="#" class="nav-link text-dark">Contatos</a>
           </li>
 
         </ul>
         <ul class="navbar-nav ml-auto ">
           <li class="navbar-item dropdown">
-            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="navDrop">Social</a>
+            <a href="#" class="nav-link dropdown-toggle text-dark" data-toggle="dropdown" id="navDrop">Social</a>
 
             <div class="dropdown-menu bg-white ">
               <a href="#" class="dropdown-item"><img src="icon/facebook.svg" alt=""> Fecebook</a>
@@ -78,22 +78,23 @@
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="img/celular.png" alt="" class="img-fluid d-block">
-        <div class="carousel-caption d-none d-md-block ">
-          <h1 class="text-dark">Celulares</h1>
+
+        <div class="carousel-caption d-none d-md-block text-dark">
+          <h1>Celulares</h1>
           <p class="lead">consectetur adipiscing elit. Donec nec lorem velit. Maecenas id tellus.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="img/roupa.png" alt="" class="img-fluid d-block">
-        <div class="carousel-caption d-none d-md-block ">
-          <h1 class="text-dark">Seu Estilo</h1>
+        <img src="img/roupa.png" alt="" class="img-fluid d-block ">
+        <div class="carousel-caption d-none d-md-block  text-dark ">
+          <h1>Seu Estilo</h1>
           <p class="lead">consectetur adipiscing elit. Donec nec lorem velit. Maecenas id tellus.</p>
         </div>
       </div>
       <div class="carousel-item">
         <img src="img/celular.png" alt="" class="img-fluid d-block">
-        <div class="carousel-caption d-none d-md-block ">
-          <h1 class="text-dark">Nick Richardson </h1>
+        <div class="carousel-caption d-none d-md-block  text-dark ">
+          <h1>Nick Richardson </h1>
           <p class="lead">consectetur adipiscing elit. Donec nec lorem velit. Maecenas id tellus.</p>
         </div>
       </div>
@@ -120,8 +121,11 @@
 
 
     <div class="row mb-5 ">
+
       <div class="col-3 ">
-        <nav id="navebarVertical" class="navbar navbar-light bg-light ">
+
+        <nav id="navbarVertical" class="navbar navbar-light bg-light ">
+
           <nav class="nav nav-pills flex-column">
 
             <a href="#item1" class="nav-link ">New assets </a>
@@ -187,6 +191,83 @@
 
         </div>
 
+      </div>
+    </div>
+    <div class="row mb-5">
+      <div class="col-sm-4">
+        <div class="card">
+          <img class="card-img-top" src="img/celular.png" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Save time</h4>
+            <h6 class="card-subtitle mb-2 text-muted">Stock Photos</h6>
+            <p class="card-text">Lorem ipsum, or lipsum as it is sometimes known, is dummy text
+              .</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Tipos de letra</li>
+            <li class="list-group-item">Mais famoso</li>
+            <li class="list-group-item">Espaço reservado</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Curiosidade</a>
+            <a href="#" class="card-link">Saiba-mais</a>
+
+          </div>
+          <div class="card-footer text-muted">
+            © 2018 - 2023 LOREM IPZUM
+          </div>
+        </div>
+
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <img class="card-img-top" src="img/roupa.png" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Graphic Templates</h4>
+            <h6 class="card-subtitle mb-2 text-muted">Video Templates</h6>
+            <p class="card-text">Lorem ipsum, or lipsum as it is sometimes known, is dummy text
+              .</p>
+          </div>
+          <ul class="list-group list-group-flush ">
+            <li class="list-group-item">Tipos de letra</li>
+            <li class="list-group-item">Mais famoso</li>
+            <li class="list-group-item">Espaço reservado</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Curiosidade</a>
+            <a href="#" class="card-link">Saiba-mais</a>
+
+          </div>
+          <div class="card-footer text-muted">
+            © 2018 - 2023 LOREM IPZUM
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <img class="card-img-top" src="img/roupa.png" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Save time</h4>
+            <h6 class="card-subtitle mb-2 text-muted">type specimen book</h6>
+            <p class="card-text">Lorem ipsum, or lipsum as it is sometimes known, is dummy text
+              .</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Tipos de letra</li>
+            <li class="list-group-item">Mais famoso</li>
+            <li class="list-group-item">Espaço reservado</li>
+          </ul>
+
+
+          <div class="card-body">
+            <a href="#" class="card-link">Curiosidade</a>
+            <a href="#" class="card-link">Saiba-mais</a>
+
+          </div>
+          <div class="card-footer text-muted">
+            © 2018 - 2023 LOREM IPZUM
+          </div>
+        </div>
       </div>
     </div>
   </div>
