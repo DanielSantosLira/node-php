@@ -8,6 +8,7 @@
   <title>Mercado Preso</title>
   <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
   <link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css">
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
 
 </head>
 
@@ -130,7 +131,7 @@
     <div class="row">
 
       <div class="col-12 text-center my-5">
-        <h1 class="display-3">SEJA BEM VINDO</h1>
+        <h1 class="display-3"><i class="fa fa-cogs text-primary" aria-hidden="true"></i>  SEJA BEM VINDO</h1>
         <p>AQUI COMEÇA SUAS EMOÇÕES</p>
       </div>
 
@@ -318,7 +319,7 @@
 
         <div class="col-12 text-center">
 
-          <h1 class="display-4">Porque nós o usamos</h1>
+          <h1 class="display-4"><i class="fa fa-video-camera text-primary " aria-hidden="true"></i>  Porque nós o usamos</h1>
           <p class="lead">Lorem Ipsum é simplesmente uma
             simulação de texto da indústria tipográfica e
             de impressos, e vem sendo utilizado desde o século
@@ -351,7 +352,7 @@
 
           <div class="tab-content" id="nav-pills-content">
 
-            <div class="tab-pane fade show active" id="nav-item-01 " role="tabpanel">
+            <div class="tab-pane fade show active" id="nav-item-01" role="tabpanel">
 
               <div class="row">
 
@@ -376,7 +377,7 @@
 
             </div>
 
-            <div class="tab-pane fade " id="nav-item-02 " role="tabpanel">
+            <div class="tab-pane fade" id="nav-item-02" role="tabpanel">
               <div class="row">
 
                 <div class="col-sm-6">
@@ -400,12 +401,12 @@
 
             </div>
 
-            <div class="tab-pane fade " id="nav-item-03 " role="tabpanel">
+            <div class="tab-pane fade" id="nav-item-03" role="tabpanel">
               <div class="row">
 
                 <div class="col-sm-6">
                   <div class="embed-responsive embed-responsive-4by3">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Ld2ikv9fExs"></iframe>
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/fq_C6k5lulY"></iframe>
                   </div>
                 </div>
 
@@ -430,10 +431,6 @@
 
     </div>
   </div>
-
-
-
-
 
   <!-- Modal -->
   <div class="modal fade" id="siteModal" tabindex="-1" role="dialg">
