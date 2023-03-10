@@ -71,7 +71,7 @@
 
     </div>
   </nav>
-<!--
+
   <div id="carouselSite" class="carousel slide bg-primary " data-ride="carousel">
 
     <ol class="carousel-indicators">
@@ -86,7 +86,7 @@
     <div class="carousel-inner">
 
       <div class="carousel-item active">
-        <!--
+        
         <img src="img/celular.png" alt="" class="img-fluid d-block">
  
         <div class="carousel-caption d-none d-md-block text-dark">
@@ -94,7 +94,7 @@
           <h1>Celulares</h1>
           <p class="lead">consectetur adipiscing elit. Donec nec lorem velit. Maecenas id tellus.</p>
         </div>
--->
+
       </div>
 
       <div class="carousel-item">
@@ -127,7 +127,7 @@
     </a>
 
   </div>
-  -->
+
   <div class="container">
 
     <div class="row">
