@@ -28,7 +28,7 @@
         <ul class="navbar-nav mr-auto">
 
           <li class="navbar-item">
-            <a href="#" class="nav-link text-dark">Inicio</a>
+            <a href="#" class="nav-link text-dark">AAAA</a>
           </li>
 
           <li class="navbar-item">
@@ -101,7 +101,7 @@
         <img src="img/roupa.png" alt="" class="img-fluid d-block ">
         <div class="carousel-caption d-none d-md-block  text-dark ">
           <h1>Seu Estilo</h1>
-          <p class="lead">consectetur adipiscing elit. Donec nec lorem velit. Maecenas id tellus.</p>
+          <p class="lead"></p>
         </div>
 
       </div>
