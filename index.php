@@ -28,7 +28,7 @@
         <ul class="navbar-nav mr-auto">
 
           <li class="navbar-item">
-            <a href="#" class="nav-link text-dark">picacaca</a>
+            <a href="#" class="nav-link text-dark">Inicio</a>
           </li>
 
           <li class="navbar-item">
