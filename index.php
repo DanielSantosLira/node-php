@@ -71,7 +71,7 @@
 
     </div>
   </nav>
-
+<!--
   <div id="carouselSite" class="carousel slide bg-primary " data-ride="carousel">
 
     <ol class="carousel-indicators">
@@ -86,13 +86,15 @@
     <div class="carousel-inner">
 
       <div class="carousel-item active">
+        <!--
         <img src="img/celular.png" alt="" class="img-fluid d-block">
-
+ 
         <div class="carousel-caption d-none d-md-block text-dark">
+         -  
           <h1>Celulares</h1>
           <p class="lead">consectetur adipiscing elit. Donec nec lorem velit. Maecenas id tellus.</p>
         </div>
-
+-->
       </div>
 
       <div class="carousel-item">
@@ -125,13 +127,13 @@
     </a>
 
   </div>
-
+  -->
   <div class="container">
 
     <div class="row">
 
       <div class="col-12 text-center my-5">
-        <h1 class="display-3"><i class="fa fa-cogs text-primary" aria-hidden="true"></i>  SEJA BEM VINDO</h1>
+        <h1 class="display-3"><i class="fa fa-cogs text-primary" aria-hidden="true"></i> SEJA BEM VINDO</h1>
         <p>AQUI COMEÇA SUAS EMOÇÕES</p>
       </div>
 
@@ -319,7 +321,7 @@
 
         <div class="col-12 text-center">
 
-          <h1 class="display-4"><i class="fa fa-video-camera text-primary " aria-hidden="true"></i>  Porque nós o usamos</h1>
+          <h1 class="display-4"><i class="fa fa-video-camera text-primary " aria-hidden="true"></i> Porque nós o usamos</h1>
           <p class="lead">Lorem Ipsum é simplesmente uma
             simulação de texto da indústria tipográfica e
             de impressos, e vem sendo utilizado desde o século
@@ -337,7 +339,7 @@
           <ul class="nav nav-pills justify-content-center mb-4" id="pills-nav" role="tablist">
 
             <li class="nav-item">
-              <a class="nav-link active " id="nav-pills-01" data-toggle="pill"  href="#nav-item-01">Pellentesque</a>
+              <a class="nav-link active " id="nav-pills-01" data-toggle="pill" href="#nav-item-01">Pellentesque</a>
             </li>
 
             <li class="nav-item">
@@ -345,7 +347,7 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link  " id="nav-pills-03" data-toggle="pill"  href="#nav-item-03">De onde ele vem</a>
+              <a class="nav-link  " id="nav-pills-03" data-toggle="pill" href="#nav-item-03">De onde ele vem</a>
             </li>
 
           </ul>
