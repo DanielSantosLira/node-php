@@ -13,6 +13,7 @@
 </head>
 
 <body>
+  <!-- inicio do navbar -->
   <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-collapse bg-dange ">
 
     <div class="container">
@@ -71,7 +72,9 @@
 
     </div>
   </nav>
+  <!-- Fim do navbar -->
 
+  <!-- Incicio do Carousel -->
   <div id="carouselSite" class="carousel slide bg-primary " data-ride="carousel">
 
     <ol class="carousel-indicators">
@@ -86,11 +89,11 @@
     <div class="carousel-inner">
 
       <div class="carousel-item active">
-        
+
         <img src="img/celular.png" alt="" class="img-fluid d-block">
- 
+
         <div class="carousel-caption d-none d-md-block text-dark">
-         -  
+          -
           <h1>Celulares</h1>
           <p class="lead">consectetur adipiscing elit. Donec nec lorem velit. Maecenas id tellus.</p>
         </div>
@@ -127,7 +130,9 @@
     </a>
 
   </div>
+  <!-- fim do Carousel -->
 
+  <!-- Inicio do card -->
   <div class="container">
 
     <div class="row">
@@ -312,7 +317,9 @@
       </div>
     </div>
   </div>
+  <!-- fim do Card -->
 
+  <!-- Incicio do Jombontron -->
   <div class="jumbotron jumbotron-fluid">
 
     <div class="container">
@@ -433,8 +440,34 @@
 
     </div>
   </div>
+  <!-- Fim do Jombontron -->
 
-  <!-- Modal -->
+
+  <!--Inicio Formulário -->
+  <div class="container">
+    <div class="row">
+
+    </div>
+    <div class="col-12 text-center my-5">
+      <h1 class="display-4"><i class="fa fa-paper-plane text-primary" aria-hidden="true"></i>Cadastre-se</h1>
+    </div>
+
+    <div class="row justify-content-center mb-5">
+
+      <div class="col-sm-12 col-md-10 col-lg-8"></div>
+      <form>
+        <div class="form-row">
+          <div class="form-group col-sm-6">
+            <label for="input-nome"></label>
+          </div>
+
+        </div>
+      </form>
+    </div>
+  </div>
+  <!--Fim Formulário -->
+
+  <!--Icicio Modal -->
   <div class="modal fade" id="siteModal" tabindex="-1" role="dialg">
 
     <div class="modal-dialog modal-lg" role="document">
@@ -489,6 +522,7 @@
       </div>
     </div>
   </div>
+  <!--Fim Modal -->
 
   <script src="node_modules/jquery/dist/jquery.js"></script>
   <script src="node_modules/popper.js/dist/umd/popper.js"></script>
