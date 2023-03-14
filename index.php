@@ -14,13 +14,13 @@
 
 <body>
   <!-- inicio do navbar -->
-  <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-collapse bg-dange ">
+  <nav class="navbar navbar-expand-lg  bg-gradient-dange">
 
     <div class="container">
 
       <a class="navbar-brand " href="#"><img src="img/logo.png" alt="" width="70px"></a>
 
-      <button class="navbar-toggler bg-primary" type="button" data-toggle="collapse" data-target="#navbarSite">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
         <span class="navbar-toggler-icon"></span>
       </button>
 
@@ -66,7 +66,7 @@
 
         <form action="" class="form-inline">
           <input type="search" placeholder="Buscar..." class="form-control ml-4 mr-2">
-          <button class="btn btn-light" type="submit">Ok</button>
+          <button class="btn btn-light" type="Submit">Ok</button>
         </form>
       </div>
 
@@ -91,31 +91,16 @@
       <div class="carousel-item active">
 
         <img src="img/celular.png" alt="" class="img-fluid d-block">
-
-        <div class="carousel-caption d-none d-md-block text-dark">
-          -
-          <h1>Celulares</h1>
-          <p class="lead">consectetur adipiscing elit. Donec nec lorem velit. Maecenas id tellus.</p>
-        </div>
-
       </div>
 
       <div class="carousel-item">
         <img src="img/roupa.png" alt="" class="img-fluid d-block ">
-        <div class="carousel-caption d-none d-md-block  text-dark ">
-          <h1>Seu Estilo</h1>
-          <p class="lead"></p>
-        </div>
-
+      
       </div>
 
       <div class="carousel-item">
         <img src="img/celular.png" alt="" class="img-fluid d-block">
-        <div class="carousel-caption d-none d-md-block  text-dark ">
-          <h1>Nick Richardson </h1>
-          <p class="lead">consectetur adipiscing elit. Donec nec lorem velit. Maecenas id tellus.</p>
-        </div>
-
+       
       </div>
     </div>
 
