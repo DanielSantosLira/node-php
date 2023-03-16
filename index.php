@@ -18,7 +18,7 @@
 
     <div class="container">
 
-      <a class="navbar-brand " href="#"><img src="img/logo.png" alt="" width="70px"></a>
+      <a class="navbar-brand " href="#"><img src="img/logo.png" alt=""></a>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
         <span class="navbar-toggler-icon"></span>
@@ -55,10 +55,22 @@
             <a href="#" class="nav-link dropdown-toggle text-dark" data-toggle="dropdown" id="navDrop">Social</a>
 
             <div class="dropdown-menu bg-white ">
-              <a href="#" class="dropdown-item"><img src="icon/facebook.svg" alt=""> Fecebook</a>
-              <a href="#" class="dropdown-item"><img src="icon/twitter.svg" alt=""> Twitter</a>
-              <a href="#" class="dropdown-item"><img src="icon/instagram.svg" alt=""> Instagran</a>
-              <a href="#" class="dropdown-item"><img src="icon/youtube.svg" alt=""> YouTube</a>
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
             </div>
           </li>
 
@@ -95,12 +107,12 @@
 
       <div class="carousel-item">
         <img src="img/roupa.png" alt="" class="img-fluid d-block ">
-      
+
       </div>
 
       <div class="carousel-item">
         <img src="img/celular.png" alt="" class="img-fluid d-block">
-       
+
       </div>
     </div>
 
@@ -429,7 +441,7 @@
 
   <!--Inicio Formulário -->
   <div class="container">
-    
+
     <div class="col-12 text-center my-5">
       <h1 class="display-4"><i class="fa fa-paper-plane text-primary" aria-hidden="true"></i>Cadastre-se</h1>
     </div>
