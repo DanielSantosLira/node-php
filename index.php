@@ -18,7 +18,7 @@
 
     <div class="container">
 
-      <a class="navbar-brand " href="#"><img src="img/logo.png" alt="" width="10px"></a>
+      <a class="navbar-brand " href="#"><img src="img/logo.png" alt="" width="70px"></a>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
         <span class="navbar-toggler-icon"></span>
