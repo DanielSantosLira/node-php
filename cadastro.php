@@ -12,8 +12,8 @@
 
 </head>
 
-<body>
-    <div class="container">
+<body class="bg-dark">
+    <div class="container bg-secondary">
         <div class="col-12 text-center my-5">
             <h1 class="display-4"><i class="fa fa-paper-plane text-primary" aria-hidden="true"></i>Cadastre-se</h1>
         </div>
@@ -149,6 +149,13 @@
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script>
+    $(function() {
+      $('[data-toggle="popover"]').popover()
+
+    });
+  </script>
+
 
 </body>
 
