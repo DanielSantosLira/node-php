@@ -53,24 +53,8 @@
         <ul class="navbar-nav ml-auto ">
           <li class="navbar-item dropdown">
             <a href="#" class="nav-link dropdown-toggle text-dark" data-toggle="dropdown" id="navDrop">Social</a>
-
-            <div class="dropdown-menu bg-white ">
-              <form class="px-4 py-7">
-                <div class="form-group">
-                  <label for="exampleDropdownFormEmail1">Endereço de email</label>
-                  <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@exemplo.com">
-                </div>
-                <div class="form-group">
-                  <label for="exampleDropdownFormPassword1">Senha</label>
-                  <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Senha">
-                </div>
-                <div class="mb-3 form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </form>
-            </div>
+                
+           
           </li>
 
         </ul>
