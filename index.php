@@ -53,8 +53,8 @@
         <ul class="navbar-nav ml-auto ">
           <li class="navbar-item dropdown">
             <a href="#" class="nav-link dropdown-toggle text-dark" data-toggle="dropdown" id="navDrop">Social</a>
-                
-           
+
+
           </li>
 
         </ul>
@@ -85,7 +85,7 @@
 
       <div class="carousel-item active">
 
-        <img src="img/celular.png" alt="" class="img-fluid d-block">
+        <img src="img/preco.gif" alt="" class="img-fluid d-block">
       </div>
 
       <div class="carousel-item">
@@ -371,7 +371,7 @@
 
                 <div class="col-sm-6">
                   <div class="embed-responsive embed-responsive-4by3">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/P8Crk1w7p5g"></iframe>
+                    <img src="img/preco.gif" alt="" class="embed-responsive-item">
                   </div>
                 </div>
 
@@ -418,9 +418,59 @@
         </div>
       </div>
 
+
     </div>
   </div>
   <!-- Fim do Jombontron -->
+
+  <!-- começo do logim -->
+  <div class="container">
+
+    <div class="col-12 text-center my-5">
+      <h1 class="display-4"><i class="fa fa-paper-plane text-primary" aria-hidden="true"></i>Faça seu login</h1>
+    </div>
+
+    <div class="row justify-content-center mb-5">
+
+      <div class="col-sm-12 col-md-10 col-lg-8">
+        <form action="">
+
+          <div class="form-row">
+            <div class="form-group col-sm-6 ">
+
+              <label for="username">Usuário:</label>
+
+              <input type="text" id="username" class="form-control" name="username" placeholder="Digite seu nome de usuário" required>
+
+            </div>
+
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-sm-6">
+
+              <label for="password">Senha:</label>
+
+              <input type="password" id="password" class="form-control" name="password" placeholder="Digite sua senha" required>
+
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="for-group col-sm-12  mt-2">
+              <button type="submit" class="btn btn-primary">Enviar</button>
+              <a tabindex="0" class="btn btn-secondary ml-2" role="button" data-toggle="popover" data-placement="right" trigger="focus" title="Precisa de ajuda" data-content=" O que podemos lhe ajudar">Ajuda</a>
+            </div>
+          </div>
+        </form>
+
+      </div>
+
+    </div>
+  </div>
+
+
+
+
 
   <div class="container">
 
@@ -536,7 +586,12 @@
   <script src="node_modules/popper.js/dist/umd/popper.js"></script>
   <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
 
+  <script>
+    $(function() {
+      $('[data-toggle="popover"]').popover()
 
+    });
+  </script>
 
 </body>
 
